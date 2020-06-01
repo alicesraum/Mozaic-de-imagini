@@ -1,0 +1,42 @@
+﻿Build started 5/31/2020 3:26:11 PM.
+     1>Project "D:\facultate\sem2\PI\proiect\OpenCVApplication-VS2013_OCV2413_basic\OpenCVApplication.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IOpenCV/Include /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D NDEBUG /D _CONSOLE /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\OpenCVApplication.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt OpenCVApplication.cpp
+         OpenCVApplication.cpp
+     1>OpenCVApplication.cpp(23): warning C4018: '<' : signed/unsigned mismatch
+     1>OpenCVApplication.cpp(63): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\facultate\sem2\PI\proiect\OpenCVApplication-VS2013_OCV2413_basic\Release\OpenCVApplication.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:OpenCV/Lib opencv_calib3d2413.lib opencv_contrib2413.lib opencv_core2413.lib opencv_features2d2413.lib opencv_flann2413.lib opencv_gpu2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib opencv_nonfree2413.lib opencv_objdetect2413.lib opencv_ocl2413.lib opencv_photo2413.lib opencv_stitching2413.lib opencv_superres2413.lib opencv_ts2413.lib opencv_video2413.lib opencv_videostab2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\facultate\sem2\PI\proiect\OpenCVApplication-VS2013_OCV2413_basic\Release\OpenCVApplication.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\facultate\sem2\PI\proiect\OpenCVApplication-VS2013_OCV2413_basic\Release\OpenCVApplication.lib" /MACHINE:X86 /SAFESEH Release\common.obj
+         Release\OpenCVApplication.obj
+         Release\stdafx.obj
+         Generating code
+         Finished generating code
+         OpenCVApplication.vcxproj -> D:\facultate\sem2\PI\proiect\OpenCVApplication-VS2013_OCV2413_basic\Release\OpenCVApplication.exe
+       PostBuildEvent:
+         copy OpenCV\dll\Release\*.dll Release
+         :VCEnd
+         OpenCV\dll\Release\opencv_calib3d2413.dll
+         OpenCV\dll\Release\opencv_contrib2413.dll
+         OpenCV\dll\Release\opencv_core2413.dll
+         OpenCV\dll\Release\opencv_features2d2413.dll
+         OpenCV\dll\Release\opencv_ffmpeg2413.dll
+         OpenCV\dll\Release\opencv_flann2413.dll
+         OpenCV\dll\Release\opencv_gpu2413.dll
+         OpenCV\dll\Release\opencv_highgui2413.dll
+         OpenCV\dll\Release\opencv_imgproc2413.dll
+         OpenCV\dll\Release\opencv_legacy2413.dll
+         OpenCV\dll\Release\opencv_ml2413.dll
+         OpenCV\dll\Release\opencv_nonfree2413.dll
+         OpenCV\dll\Release\opencv_objdetect2413.dll
+         OpenCV\dll\Release\opencv_ocl2413.dll
+         OpenCV\dll\Release\opencv_photo2413.dll
+         OpenCV\dll\Release\opencv_stitching2413.dll
+         OpenCV\dll\Release\opencv_superres2413.dll
+         OpenCV\dll\Release\opencv_video2413.dll
+         OpenCV\dll\Release\opencv_videostab2413.dll
+                19 file(s) copied.
+     1>Done Building Project "D:\facultate\sem2\PI\proiect\OpenCVApplication-VS2013_OCV2413_basic\OpenCVApplication.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.84
